@@ -31,16 +31,16 @@ void main() {
   }
 
   while (isAuthenticated) {
-    print('ATM Main Menu:');
+    print('\nATM Main Menu:');
     print('1. Balance Inquiry');
     print('2. Withdraw Cash');
     print('3. Deposit Cash');
     print('4. Transfer Money');
     print('5. Change PIN');
     print('6. Pay Bills');
-    print('7. Exit');
+    print('7. Exit\n');
 
-    stdout.write('Choose an option: ');
+    stdout.write('Choose an option:');
     int? choice = int.tryParse(stdin.readLineSync() ?? '');
 
     switch (choice) {
@@ -50,11 +50,11 @@ void main() {
         break;
       // Withdraw cash
       case 2:
-        stdout.write('Enter amount to withdraw: ');
+        stdout.write('\nEnter amount to withdraw: ');
         double? withdraw = double.tryParse(stdin.readLineSync() ?? '');
 
         if (withdraw == null || withdraw <= 0) {
-          print('Invalid amount. Please enter a positive number.');
+          print('Invalid amount. Please enter a positive number.\n');
         } else if (withdraw > balance) {
           print('Insufficient balance.');
         } else {
