@@ -1,5 +1,5 @@
 # DelaCruzCedric_Activity1_MAD2
-Mobile App Dev 2
+Screenshots of code and results
 <img width="957" height="822" alt="image" src="https://github.com/user-attachments/assets/a1c72357-3573-44c4-9731-c9ab5ef5928d" />
 <img width="816" height="747" alt="image" src="https://github.com/user-attachments/assets/53546832-6dec-44f8-aad1-93b726453778" />
 <img width="1002" height="763" alt="image" src="https://github.com/user-attachments/assets/2fd10b34-ec58-4328-849a-ff974c5358cf" />
